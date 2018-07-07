@@ -6,7 +6,7 @@
 #    By: ntoniolo <ntoniolo@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/11/02 18:45:43 by ntoniolo          #+#    #+#              #
-#    Updated: 2018/01/15 20:39:37 by ntoniolo         ###   ########.fr        #
+#    Updated: 2018/07/07 23:14:42 by ntoniolo         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -26,10 +26,12 @@ SRC = srcs/matrix_identity.c \
 srcs/matrix_mult_dir_vector.c \
 srcs/matrix_mult_matrix.c \
 srcs/matrix_mult_vector.c \
+srcs/matrix_print.c \
 srcs/matrix_transpose.c \
 srcs/matrix_rotation_x.c \
 srcs/matrix_rotation_y.c \
 srcs/matrix_rotation_z.c \
+srcs/matrix_scaling.c \
 srcs/matrix_translation.c
 
 OBJET = $(SRC:.c=.o)
