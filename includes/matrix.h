@@ -6,7 +6,7 @@
 /*   By: ntoniolo <ntoniolo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/10/31 21:27:35 by ntoniolo          #+#    #+#             */
-/*   Updated: 2018/07/09 23:44:44 by ntoniolo         ###   ########.fr       */
+/*   Updated: 2018/07/10 22:43:35 by ntoniolo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,7 +43,12 @@ void			matrix_scaling(t_matrix *m, const float s);
 
 void		matrixgl_translation(t_matrix *m, const t_vector *trans);
 t_matrix	matrixgl_get_translation(const t_vector *trans);
+void		matrixgl_rotation_x(t_matrix *m, const float a);
+t_matrix	matrixgl_get_rotation_x(const float a);
+void		matrixgl_rotation_y(t_matrix *m, const float a);
+t_matrix	matrixgl_get_rotation_y(const float a);
+void		matrixgl_rotation_z(t_matrix *m, const float a);
+t_matrix	matrixgl_get_rotation_z(const float a);
 
 void			matrix_print(const t_matrix *m, const char *str);
-
 #endif
